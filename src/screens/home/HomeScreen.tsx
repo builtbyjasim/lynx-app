@@ -6,6 +6,7 @@ export default function HomeScreen() {
     <SafeArea>
       <view className="HomeScreen">
         <text>Home</text>
+        <view style={{ flex: 1, background: "red",  }} />
       </view>
     </SafeArea>
   );

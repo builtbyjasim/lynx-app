@@ -9,12 +9,12 @@ export default function SplashScreen() {
 
   const [alterLogo, setAlterLogo] = useState(false);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      nav("/home");
-    }, 2000);
-    return () => clearTimeout(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     nav("/home");
+  //   }, 2000);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   const onTap = useCallback(() => {
     "background only";
