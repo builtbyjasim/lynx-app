@@ -1,6 +1,6 @@
+import "./ProfileScreen.css";
 import { useNavigate } from "react-router";
 import SafeArea from "../components/SafeArea";
-import "./ProfileScreen.css";
 
 const ProfileScreen = () => {
   const navigate = useNavigate();

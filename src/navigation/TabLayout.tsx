@@ -17,7 +17,7 @@ export default function TabLayout() {
 
       <view
         style={{
-          height: isAndroid() ? "50px" : "60px",
+          height: isAndroid() ? "50px" : "72px",
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-around",
@@ -44,16 +44,16 @@ export default function TabLayout() {
         </text>
 
         <text
-          bindtap={() => navigate("/profile")}
+          bindtap={() => navigate("/setting")}
           style={{
             padding: "8px 16px",
-            background: isActive("/profile") ? "#000" : "#00000005",
-            color: isActive("/profile") ? "#fff" : "#000",
+            background: isActive("/setting") ? "#000" : "#00000005",
+            color: isActive("/setting") ? "#fff" : "#000",
             borderRadius: "16px",
             fontSize: "12px",
           }}
         >
-          Profile
+          Setting
         </text>
       </view>
     </view>
