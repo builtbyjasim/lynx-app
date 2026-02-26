@@ -1,4 +1,3 @@
-import { isAndroid } from "../../utils/platform/isAndroid";
 import { SafeArea } from "../components/SafeArea";
 import "./HomeScreen.css";
 
