@@ -4,6 +4,7 @@ import Splash from "../screens/splash/SplashScreen";
 import TabLayout from "./TabLayout";
 import ProfileScreen from "../screens/profile/ProfileScreen";
 import SettingScreen from "../screens/setting/SettingScreen";
+import HelpAndSupport from "../screens/helpAndSupport/HelpAndSupport";
 
 export default function AppRouter() {
   return (
@@ -11,6 +12,7 @@ export default function AppRouter() {
       <Routes>
         <Route path="/" element={<Splash />} />
         <Route path="/profile" element={<ProfileScreen />} />
+        <Route path="/helpAndSupport" element={<HelpAndSupport />} />
 
         {/* Bottom Tab Layout */}
         <Route element={<TabLayout />}>

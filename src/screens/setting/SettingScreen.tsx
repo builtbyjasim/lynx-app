@@ -28,8 +28,11 @@ export default function SettingScreen() {
             gap: "8px",
           }}
         >
-          <Button title={"Profile"} onPress={()=> navigate('/profile')} />
-          <Button title={"Help and Support"} />
+          <Button title={"Profile"} onPress={() => navigate("/profile")} />
+          <Button
+            title={"Help and Support"}
+            onPress={() => navigate("/helpAndSupport")}
+          />
 
           <text
             style={{
