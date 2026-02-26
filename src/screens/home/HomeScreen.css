@@ -1,6 +1,8 @@
 .HomeScreen {
-  height: 100%;
-  background-color:#f2f2f2;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
   align-items: center;
   justify-content: center;
 }

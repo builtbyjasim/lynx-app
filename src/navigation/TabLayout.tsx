@@ -11,7 +11,7 @@ export default function TabLayout() {
 
   return (
     <view style={{ flex: 1, display: "flex", flexDirection: "column" }}>
-      <view style={{ flex: 1 }}>
+      <view style={{ flex: 1, display: "flex", flexDirection: "column" }}>
         <Outlet />
       </view>
 
