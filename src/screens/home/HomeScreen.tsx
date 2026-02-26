@@ -6,9 +6,6 @@ export default function HomeScreen() {
     <SafeArea>
       <view className="HomeScreen">
         <text>Home</text>
-        <text>Home</text>
-        <text>Home</text>
-        <text>Home</text>
       </view>
     </SafeArea>
   );

@@ -28,12 +28,12 @@ export default function SplashScreen() {
         <view className="Banner">
           <view className="Logo" bindtap={onTap}>
             {alterLogo ? (
-              <image src={reactLynxLogo} className="Logo--react" />
-            ) : (
               <image src={lynxLogo} className="Logo--lynx" />
+            ) : (
+              <image src={reactLynxLogo} className="Logo--react" />
             )}
           </view>
-          <text className="Title">Splash</text>
+          <text className="Title">Lynx App</text>
         </view>
       </view>
     </view>

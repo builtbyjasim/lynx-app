@@ -22,6 +22,7 @@
   align-items: center;
   justify-content: center;
   z-index: 100;
+  gap: 20px;
 }
 
 .Logo {
@@ -80,5 +81,5 @@
   /* height or flex works only one at a time */
   /* height: 300px; */
   flex: 1;
-  background-color: #ee0909;
+  /* background-color: #ee0909; */
 }

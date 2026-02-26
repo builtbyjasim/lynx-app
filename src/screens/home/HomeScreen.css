@@ -1,5 +1,6 @@
 .HomeScreen {
   flex: 1;
+  height: 100%;
   background-color: rgb(47, 28, 3);
   border: 2;
   border-color: blue;
